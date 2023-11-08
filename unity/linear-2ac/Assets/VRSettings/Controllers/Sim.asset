@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b836d202e184b654e97eb6ac411bd400, type: 3}
+  m_Name: Sim
+  m_EditorClassIdentifier: 
+  deviceName: LinearTreadmill
+  deviceIsSpherical: 0
+  isActive: 0
+  enableLogging: 0
+  loopPath: 0
+  gain:
+    forward: 1
+    backward: 1
+  inputSmooth: 100
+  buttonTopics:
+  - LickPort/
+  gamepadSettings:
+    selectedGamepad: 0
